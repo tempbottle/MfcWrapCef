@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\cef">
+      <UniqueIdentifier>{337b829a-8552-4ed0-b037-596a282aa2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{0a7d1c75-710c-4a71-96be-8b7c9b122b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\int">
+      <UniqueIdentifier>{72d61b1e-1182-4224-849c-5536a5e4e590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cef">
+      <UniqueIdentifier>{cac972fa-f5a9-41a2-8f16-044e56214be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{d72a2019-5101-4e37-8882-c1d5c46e5051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\int">
+      <UniqueIdentifier>{95c0a281-a392-49e8-b2ee-9c4465dba47e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cef\app_handler.h">
+      <Filter>头文件\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="cef\client_handler.h">
+      <Filter>头文件\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="cef\client_renderer.h">
+      <Filter>头文件\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="cef\embeded_browser.h">
+      <Filter>头文件\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="cef\js_call_back.h">
+      <Filter>头文件\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="int\BrowserI.h">
+      <Filter>头文件\int</Filter>
+    </ClInclude>
+    <ClInclude Include="int\BrowserView.h">
+      <Filter>头文件\int</Filter>
+    </ClInclude>
+    <ClInclude Include="int\Cef.h">
+      <Filter>头文件\int</Filter>
+    </ClInclude>
+    <ClInclude Include="int\JSHandler.h">
+      <Filter>头文件\int</Filter>
+    </ClInclude>
+    <ClInclude Include="util\logging.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\string_converter.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\wm_cef_event.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="cef\client_handler_puppet.h">
+      <Filter>头文件\cef</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cef\app_handler.cc">
+      <Filter>源文件\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="cef\client_handler.cc">
+      <Filter>源文件\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="cef\client_renderer.cc">
+      <Filter>源文件\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="cef\embeded_browser.cpp">
+      <Filter>源文件\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="cef\js_call_back.cc">
+      <Filter>源文件\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="int\BrowserView.cpp">
+      <Filter>源文件\int</Filter>
+    </ClCompile>
+    <ClCompile Include="int\BrowserViewEvent.cpp">
+      <Filter>源文件\int</Filter>
+    </ClCompile>
+    <ClCompile Include="int\Cef.cc">
+      <Filter>源文件\int</Filter>
+    </ClCompile>
+    <ClCompile Include="int\JSHandler.cpp">
+      <Filter>源文件\int</Filter>
+    </ClCompile>
+    <ClCompile Include="util\logging.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\string_converter.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="cef\client_handler_puppet.cpp">
+      <Filter>源文件\cef</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

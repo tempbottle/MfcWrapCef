@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC_CEF", "..\Project\MFC_CEF\MFC_CEF.vcxproj", "{BAF01630-74E5-4367-A26F-07D14CCBE1DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibCefBrowser", "..\Project\LibCefBrowser\LibCefBrowser.vcxproj", "{BD3BCF4A-DBEB-4A3E-AFC3-711094B59DD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UseLibCefBrowser", "..\Project\UseLibCefBrowser\UseLibCefBrowser.vcxproj", "{8CB74222-20C8-4339-992E-0C816D141EC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UseLibCefBrowserMutilView", "..\Project\UseLibCefBrowserMutilView\UseLibCefBrowserMutilView.vcxproj", "{1A71F1D8-26F3-4135-8346-2E4208DD4C92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAF01630-74E5-4367-A26F-07D14CCBE1DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BAF01630-74E5-4367-A26F-07D14CCBE1DF}.Debug|Win32.Build.0 = Debug|Win32
+		{BAF01630-74E5-4367-A26F-07D14CCBE1DF}.Release|Win32.ActiveCfg = Release|Win32
+		{BAF01630-74E5-4367-A26F-07D14CCBE1DF}.Release|Win32.Build.0 = Release|Win32
+		{BD3BCF4A-DBEB-4A3E-AFC3-711094B59DD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD3BCF4A-DBEB-4A3E-AFC3-711094B59DD8}.Debug|Win32.Build.0 = Debug|Win32
+		{BD3BCF4A-DBEB-4A3E-AFC3-711094B59DD8}.Release|Win32.ActiveCfg = Release|Win32
+		{BD3BCF4A-DBEB-4A3E-AFC3-711094B59DD8}.Release|Win32.Build.0 = Release|Win32
+		{8CB74222-20C8-4339-992E-0C816D141EC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CB74222-20C8-4339-992E-0C816D141EC0}.Debug|Win32.Build.0 = Debug|Win32
+		{8CB74222-20C8-4339-992E-0C816D141EC0}.Release|Win32.ActiveCfg = Release|Win32
+		{8CB74222-20C8-4339-992E-0C816D141EC0}.Release|Win32.Build.0 = Release|Win32
+		{1A71F1D8-26F3-4135-8346-2E4208DD4C92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A71F1D8-26F3-4135-8346-2E4208DD4C92}.Debug|Win32.Build.0 = Debug|Win32
+		{1A71F1D8-26F3-4135-8346-2E4208DD4C92}.Release|Win32.ActiveCfg = Release|Win32
+		{1A71F1D8-26F3-4135-8346-2E4208DD4C92}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

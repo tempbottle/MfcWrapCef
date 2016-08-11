@@ -1,0 +1,16 @@
+#ifndef UTIL_WM_CEF_EVENT_H_INCLUDED
+#define UTIL_WM_CEF_EVENT_H_INCLUDED
+
+// CefApp Event Define.
+#define		WM_CEF_CONTEXT_INITIALIZED			WM_USER+100
+
+
+// CefClient Event Define.
+#define		WM_CEF_TITLE_CHANGE					WM_USER+200
+#define		WM_CEF_AFTER_CREATED				WM_USER+201
+#define		WM_CEF_DO_CLOSE						WM_USER+202
+#define		WM_CEF_BEFORE_CLOSE					WM_USER+203
+#define		WM_CEF_LOAD_ERROR					WM_USER+204
+#define     WM_CEF_LOAD_END						WM_USER+205
+
+#endif // UTIL_WM_CEF_EVENT_H_INCLUDED
